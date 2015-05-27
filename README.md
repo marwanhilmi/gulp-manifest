@@ -39,6 +39,12 @@ Default: `undefined`
 
 Exclude specific files from the Cache Manifest file.
 
+#### options.prefix
+Type: `String`
+Default: `""`
+
+Adds a prefix to the URLs in **CACHE** section. Useful if assets are served from a different base URL.
+
 #### options.network
 Type: `String` `Array`  
 Default: `"*"` (By default, an online whitelist wildcard flag is added)   
